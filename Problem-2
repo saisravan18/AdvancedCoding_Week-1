@@ -23,7 +23,7 @@ public class removeDuplicates{
         return result;
     }
     public static void main(String[] args) {
-        int[] array = {2,2,3,3,4,5,5};
+int[] array = {2,2,3,3,4,5,5};
         System.out.println("Original array: " + Arrays.toString(array));
         int[] uniqueArray = removeDuplicates(array);
         System.out.println("After removing duplicates: " + Arrays.toString(uniqueArray));
